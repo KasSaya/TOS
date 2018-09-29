@@ -1,0 +1,125 @@
+body,html{
+    position:relative;
+    background:#F6FAFE;
+    font-size:.48rem;
+}
+.main{
+    width:100%;
+    background:#F6FAFE;
+    font-size:.48rem;
+    color:#000;
+    overflow-y:auto;
+}
+.header{
+    width:100%;
+    padding:0 .4rem;
+    height:1.4rem;
+    line-height:1.4rem;
+    text-align:center;
+    border-bottom:1px solid #f2f2f2;
+}
+.header span{
+    float:left;
+    width:.36rem;
+    height:.68rem;
+    background:url('../img/goBack.png');
+    background-size:100%;
+    transform:rotate(180deg);
+    margin-top:.34rem;
+}
+.middle .success{
+    width:3.12rem;
+    height:3.12rem;
+    display:block;
+    margin:2.6rem auto .92rem;
+}
+
+
+.item{
+    width:100%;
+    height:100%;
+    margin-top:.5rem;
+    background:#fff;
+}
+.item:nth-of-type(1){
+    margin-top:0;
+}
+.orderTitle{
+    width:100%;
+    height:1rem;
+    line-height:1rem;
+    padding-left:.4rem;
+    font-size:.48rem;
+    color:#808080;
+    border-top:1px solid #e6e6e6;
+}
+.ka{
+    border-top:1px solid #e6e6e6;
+    padding-left:.4rem;
+    width:100%;
+    height:1.8rem;
+    line-height:1.8rem;
+    color:#333;
+    font-size:.48rem;
+}
+.ka2{
+    color:#999;
+    font-size:.6rem;
+}
+.ka3{
+    float:right;
+    color:#f84c17;
+    padding-right:.4rem;
+}
+.address{
+    border-top:1px solid #e6e6e6;
+    width:100%;
+    padding-left:.4rem;
+}
+.peopel{
+    width:100%;
+
+}
+.span01{
+    float:left;
+    height:1.4rem;
+    line-height:1.4rem;
+}
+.span02{
+    float:right;
+    padding-right:.4rem;
+    height:1.4rem;
+    line-height:1.4rem;
+}
+
+.myId{
+    width:100%;
+    height:1.4rem;
+    line-height:1.4rem;
+}
+
+.address01{
+
+}
+.address01 span{
+    float:left;
+    width:18%;
+}
+.address01 p{
+    float:right;
+    width:80%;
+    line-height:.6rem;
+    margin-bottom:.4rem;
+    padding-right:.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+

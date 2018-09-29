@@ -1,0 +1,31 @@
+.uploading{
+    width:12rem;
+    height:6rem;
+    background:url("../img/uploading.png") no-repeat;
+    background-size: 100% ;
+    text-align: center;
+    font-size: .6rem;
+    color:#666666;
+    margin:0 auto;
+    margin-top:.8rem;
+}
+.uploading p{
+    padding-top: 4rem; 
+   
+}
+.affirmbtn{
+    display: block;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    background:none;
+    outline-style: none;
+    width:12rem;
+    height:1.6rem;
+    background:#DCA85F;
+    color:#fff;
+    border-radius: 8px;
+    margin:0 auto;
+    margin-top:1.6rem;
+}

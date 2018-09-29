@@ -1,0 +1,86 @@
+body,html{
+    background:#fff;
+    position:relative;
+}
+.main{
+    width:100%;
+    background:#fff;
+    font-size:.48rem;
+    color:#000;
+}
+.header{
+    width:100%;
+    padding:0 .4rem;
+    height:1.4rem;
+    line-height:1.4rem;
+    text-align:center;
+    border-bottom:1px solid #f2f2f2;
+}
+.header span{
+    float:left;
+    width:.36rem;
+    height:.68rem;
+    background:url('../img/goBack.png');
+    background-size:100%;
+    transform:rotate(180deg);
+    margin-top:.34rem;
+}
+.middle .success{
+    width:3.12rem;
+    height:3.12rem;
+    display:block;
+    margin:2.6rem auto .92rem;
+}
+.middle .text{
+    font-size:.6rem;
+    color:#333;
+    text-align:center;
+}
+.beSureBtn{
+    display:block;
+    margin:3.06rem auto;
+    width:11.6rem;
+    height:1.2rem;
+    border:none;
+    color:#fff;
+    border-radius:5px;
+    background: linear-gradient(to right, #0064ec, #51d7f6);
+}
+.ma{
+    width:6.7rem;
+    height:6.7rem;
+    border-radius:6px;
+}
+.maBox{
+    width:6.7rem;
+    height:6.7rem;
+    border-radius:6px;
+    box-shadow:3px 3px 2px #eee;
+    border:1px solid #eee;
+    margin:2rem auto 0;
+}
+.firstLine{
+    margin-top:2rem;
+}
+.blueSpan{
+    
+    color:#025bed;
+}
+.firstLine,.secondLine{
+    text-align:center;
+    font-size:.6rem;
+    color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+body,
+html,
+div,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+p,
+img,
+label,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    color: #000;
+    background:rgba(242,242,242,1);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    /*max-width: 640px;*/
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: "PingFang SC";
+    min-height: 100%;
+    margin:0 auto;
+}
+
+body {
+    width: 100%;
+    background:rgba(242,242,242,1);
+    font-family: Helvetica;
+    /*max-width: 640px;*/
+    margin:0 auto;
+    word-break: break-word;
+}
+ul,
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+}
+
+img {
+	vertical-align: top;
+}
+
+i {
+	font-style: normal;
+}
+.fl{
+	float:left;
+
+}
+.fr{
+	float:right;
+}
+.clear::after{
+		content: ".";
+    display: block;
+    height: 0;
+    width:0;
+    visibility: hidden;
+    clear: both;
+}
+.content{
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.clear:after{
+    content:" ";
+    height:0;
+    overflow: hidden;
+    visibility: hidden;
+    clear:both;
+    zoom:1;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
